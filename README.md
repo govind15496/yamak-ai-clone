@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm install`
 
 Install the dependencies dependencies specified in the package.json file of a Node.js project.\
-It ensures that all the required packages and modules are installed and available for the project to run properly.\
+It ensures that all the required packages and modules are installed and available for the project to run properly.
 
 ### `npm start`
 
