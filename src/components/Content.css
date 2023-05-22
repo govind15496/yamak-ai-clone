@@ -1,0 +1,45 @@
+.content {
+  display: block;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin: 0.5em 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+@media (max-width: 37.5em) {
+  .content {
+    margin: 2em 0.1em;
+    padding: 1em 1em;
+  }
+}
+
+.content__image {
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+.content__title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.content__description {
+  font-size: 1em;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.content__button {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  border-radius: 0.3em;
+  padding: 0.5em 1em;
+}

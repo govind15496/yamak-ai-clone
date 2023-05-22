@@ -1,0 +1,33 @@
+.getstarted {
+  background-color: rgb(220, 220, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#getstarted__heading {
+  margin-left: 0;
+}
+
+button {
+  background-color: #0000ff;
+  color: #fff;
+
+  margin: 1.45em auto !important;
+  padding: 0.6em 2.4em;
+  font-size: larger;
+  border-color: #0000ff;
+  border-radius: 6px !important;
+}
+
+@media (max-width: 37.5em) {
+  .getstarted {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 0 3em;
+  }
+  .getstarted1__img {
+    width: 100%;
+  }
+}

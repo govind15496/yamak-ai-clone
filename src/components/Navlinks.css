@@ -1,0 +1,9 @@
+.navlinks {
+  background-color: rgb(185, 185, 241);
+  display: flex;
+  align-items: center;
+}
+
+.navlinks > p {
+  margin-top: -3em;
+}

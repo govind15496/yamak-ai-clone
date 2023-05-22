@@ -1,0 +1,79 @@
+.howyamakworks {
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10em 3em;
+  padding-bottom: 0;
+}
+
+.howyamakworks__heading {
+  text-align: center;
+  padding-top: 2em;
+  margin: 0;
+}
+
+.howyamakworks__div1 {
+  background-color: #ffffff;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 25%;
+}
+
+.howyamakworks__div2 {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  padding: 50px;
+  width: 50%;
+  margin-left: 5em;
+}
+
+.howyamakworks__div3 {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  padding: 25px;
+  width: 25%;
+  margin-left: 5em;
+}
+
+.howyamakworks__img1 {
+  width: 90%;
+
+  margin-top: -6.3em;
+}
+
+.howyamakworks__img2 {
+  width: 50%;
+}
+
+.howyamakworks__button {
+  background-color: #f0f0f8;
+  background-color: #0000ff;
+  color: #fff;
+  display: flex;
+  padding: 0.5em 2.5em;
+  font-size: larger;
+  border-color: #0000ff;
+  border-radius: 6px;
+}
+
+@media (max-width: 37.5em) {
+  .howyamakworks {
+    display: none;
+  }
+  .howyamakworksinmobile__img1 {
+    width: 80%;
+    margin: 2em 2.5em;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .howyamakworksinmobile__img1 {
+    display: none;
+  }
+}

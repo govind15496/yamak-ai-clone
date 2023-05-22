@@ -1,0 +1,59 @@
+.faq {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+.faq__qna {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20%;
+  padding-bottom: 1em;
+}
+
+.faqQNA__img {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+}
+
+.faq > p {
+  margin: 2em 19em;
+}
+
+.faq > hr {
+  width: 60%;
+  margin: 0 auto;
+}
+.faq__heading {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 37.5em) {
+  .faq {
+    background-color: rgb(220, 220, 248);
+    padding: 2em;
+  }
+  .faqHeading {
+    font-size: smaller;
+    padding-top: 2em;
+  }
+
+  .faqpara {
+    font-size: smaller;
+  }
+
+  .faq__qna {
+    margin: 0 0.9em;
+  }
+  .faqQNA__img {
+    display: none;
+  }
+
+  .faq > p {
+    margin: 0 0.9em;
+  }
+
+  .faq > hr {
+    width: 90% !important;
+  }
+}

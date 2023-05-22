@@ -1,0 +1,28 @@
+.help {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2em 5em;
+  margin: 4em 7em;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 3em;
+}
+
+@media (max-width: 37.5em) {
+  .help {
+    display: block;
+    padding: 0 1em;
+    margin: 0 3em;
+  }
+
+  h1 {
+    margin-bottom: 3em;
+  }
+
+  .help > div {
+    margin: 2em;
+  }
+}

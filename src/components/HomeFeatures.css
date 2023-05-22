@@ -1,0 +1,36 @@
+.homefeatures {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+}
+.homefeatures > div {
+  padding: 0 2em;
+  text-align: center;
+}
+
+@media (min-width: 37.6em) and (max-width: 62.5em) {
+  .homefeatures > div {
+    padding: 0 1em;
+  }
+  .homefeatures {
+    padding: 0 5em;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .homefeatures {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .homefeatures > div {
+    padding-top: 2em;
+  }
+
+  .homefeatures > div > img {
+    padding: 1em 0;
+  }
+}

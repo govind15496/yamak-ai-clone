@@ -1,0 +1,17 @@
+.landinghome {
+  background-color: rgb(60, 60, 173);
+  color: white;
+  text-align: center;
+  padding: 2em;
+}
+
+.landinghome__button {
+  background-color: #0000ff;
+  color: #fff;
+
+  margin: 1.45em auto;
+  padding: 0.6em 2.4em;
+  font-size: larger;
+  border-color: #0000ff;
+  border-radius: 6px;
+}
